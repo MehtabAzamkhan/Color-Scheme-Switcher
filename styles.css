@@ -62,81 +62,95 @@ body {
     text-align: center;
     justify-content: center;
     position: absolute;
-    margin-top: 450px; /* Adjust as needed */
+    margin-top: 490px; /* Adjust as needed */
     width: 100%;
 }
 
 .container .headline {
     color: white;
     justify-content: center;
-    margin-bottom: 40px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
     align-items: center;
-
 }
 
 .btns {
     display: flex;
     justify-content: space-evenly; /* Adjust as needed */
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 10px; /* Adjust as needed */
     border: 4px solid white;
+}
+
+.btns .button1,
+.btns .button2,
+.btns .button3,
+.btns .button4,
+.btns .button5 {
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+    border: 4px solid white;
+    cursor: pointer;
 }
 
 .btns .button1 {
     background-color: red;
-    width: 100px;
-    height: 70px;
-    margin: 5px;
-    border: 4px solid white;
-}.btns .button2 {
+}
+
+.btns .button2 {
     background-color: greenyellow;
-    width: 100px;
-    height: 70px;
-    margin: 5px;
-    border: 4px solid white;
-}.btns .button3 {
-    background-color:blue;
-    width: 100px;
-    height: 70px;
-    margin: 5px;
-    border: 4px solid white;
-}.btns .button4 {
+}
+
+.btns .button3 {
+    background-color: blue;
+}
+
+.btns .button4 {
     background-color: yellow;
-    width: 100px;
-    height: 70px;
-    margin: 5px;
-    border: 4px solid white;
-}.btns .button5 {
+}
+
+.btns .button5 {
     background-color: rgb(65, 65, 63);
-    width: 100px;
-    height: 70px;
-    margin: 5px;
-    border: 4px solid white;
 }
 
-
-.container .headline2 {
-    color: white;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 30px; /* Adjust as needed */
-    margin-bottom: 30px; /* Adjust as needed */
-
-    /* margin-top: 20px; */
-    /* margin-top: 30px; Adjust as needed */
-    /* padding-top: 2/0px; */
-}
-
+.container .headline2,
 .container .headline3 {
     color: white;
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.container .Headline4 {
+    color: #ffffff;
+    border: 2px solid #ffe4c4;
+    background-color: rgb(65, 65, 63);
+}
+
+.container .hell {
+    margin-top: 20px;
+}
+
+.container .hell .btns1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: row; /* Adjust as needed */
+    justify-content: center;
     align-items: center;
     margin-top: 30px; /* Adjust as needed */
-    margin-bottom: 30px; /* Adjust as needed */
-    
+}
 
-    /* margin-top: 20px; */
-    /* margin-top: 30px; Adjust as needed */
-    /* padding-top: 2/0px; */
+.container .hell .btns1 button {
+    padding: 20px; /* Adjust as needed */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container .hell .btns1 button:hover {
+    background-color: #45a049;
 }
